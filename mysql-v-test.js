@@ -3,7 +3,7 @@ var TEST_DATABASE = 'nodejs_mysql_test';
 var TEST_TABLE = 'test';
 var client = mysql.createClient({
   user: 'root',
-  password: 'root',
+  password: '123456',
 });
 
 client.query('CREATE DATABASE '+TEST_DATABASE, function(err) {
